@@ -1,12 +1,11 @@
+l = ['rasengan','chidori']
+
+def test(kurama,fun):
+    for naruto in kurama:
+        print(fun(naruto))
 
 
-l = ['sun','mon','tue','wed','thu','fri','sat']
+# def test2(naruto):
+#     return naruto.capitalize()
 
-def for_day(week,func):
-    for days in week:
-        print(func(days))
-
-def sample_day(days):
-    return days.capitalize()
-
-for_day(l,sample_day)
+test(l,lambda naruto:naruto.capitalize())
