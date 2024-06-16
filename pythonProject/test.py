@@ -1,3 +1,5 @@
+
+
 l = ['sun','mon','tue','wed','thu','fri','sat']
 
 def for_day(week,func):
